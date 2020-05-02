@@ -38,38 +38,38 @@
         app:layout_constraintTop_toBottomOf="@+id/banner" />
 
     <ImageView
-        android:id="@+id/imageView3"
+        android:id="@+id/leftBall"
         android:layout_width="50dp"
         android:layout_height="50dp"
         android:layout_marginTop="36dp"
-        app:layout_constraintEnd_toStartOf="@+id/imageView4"
+        app:layout_constraintEnd_toStartOf="@+id/middleBall"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/logo"
         app:srcCompat="@drawable/camerabutton" />
 
     <ImageView
-        android:id="@+id/imageView4"
+        android:id="@+id/middleBall"
         android:layout_width="50dp"
         android:layout_height="50dp"
         android:layout_marginLeft="24dp"
         android:layout_marginRight="24dp"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView3"
-        app:layout_constraintEnd_toStartOf="@+id/imageView5"
+        app:layout_constraintBottom_toBottomOf="@+id/leftBall"
+        app:layout_constraintEnd_toStartOf="@+id/rightBall"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/imageView3"
-        app:layout_constraintTop_toTopOf="@+id/imageView3"
+        app:layout_constraintStart_toEndOf="@+id/leftBall"
+        app:layout_constraintTop_toTopOf="@+id/leftBall"
         app:srcCompat="@drawable/favoritebutton" />
 
     <ImageView
-        android:id="@+id/imageView5"
+        android:id="@+id/rightBall"
         android:layout_width="50dp"
         android:layout_height="50dp"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView4"
+        app:layout_constraintBottom_toBottomOf="@+id/middleBall"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/imageView4"
-        app:layout_constraintTop_toTopOf="@+id/imageView4"
+        app:layout_constraintStart_toEndOf="@+id/middleBall"
+        app:layout_constraintTop_toTopOf="@+id/middleBall"
         app:srcCompat="@drawable/inboxbutton" />
 
     <ImageView
@@ -81,7 +81,7 @@
         android:scaleType="centerCrop"
         app:layout_constraintDimensionRatio="1:1"
         app:layout_constraintEnd_toStartOf="@+id/guideline"
-        app:layout_constraintTop_toBottomOf="@+id/imageView3"
+        app:layout_constraintTop_toBottomOf="@+id/leftBall"
         app:srcCompat="@drawable/dataimage" />
 
     <ImageView
@@ -93,7 +93,7 @@
         android:scaleType="centerCrop"
         app:layout_constraintDimensionRatio="1:1"
         app:layout_constraintStart_toStartOf="@+id/guideline"
-        app:layout_constraintTop_toBottomOf="@+id/imageView5"
+        app:layout_constraintTop_toBottomOf="@+id/rightBall"
         app:srcCompat="@drawable/imagesimage" />
 
     <ImageView
